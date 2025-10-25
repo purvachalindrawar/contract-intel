@@ -1,2 +1,9 @@
 fastapi
 uvicorn[standard]
+
+pymupdf
+sqlalchemy
+requests
+pytest
+sentence-transformers
+faiss-cpu
