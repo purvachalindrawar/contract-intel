@@ -40,6 +40,7 @@ uvicorn app.main:app --reload --port 8000
 ### (Option B) Run with Docker
 ```bash
 docker-compose -f docker/docker-compose.yml up --build
+```
 
 ## 🧠 API Endpoints Summary
 
@@ -64,26 +65,32 @@ Below is the complete list of implemented API endpoints in this project.
 **Health Check**
 ```powershell
 Invoke-RestMethod -Uri 'http://127.0.0.1:8000/healthz' -Method GET
+```
 
 **Upload a PDF**
 ```powershell
 curl.exe -X POST "http://127.0.0.1:8000/ingest" -F "files=@sample.pdf"
+```
 
 **Extract Structured Data**
 ```powershell
 Invoke-RestMethod -Uri 'http://127.0.0.1:8000/extract?document_id=1' -Method POST
+```
 
 **Ask a Question**
 ```powershell   
 Invoke-RestMethod -Uri 'http://127.0.0.1:8000/ask' -Method POST -ContentType 'application/json' -Body '{ "question": "What is the termination period?", "top_k": 2 }'
+```
 
 **Run an Audit**
 ```powershell
 Invoke-RestMethod -Uri 'http://127.0.0.1:8000/audit' -Method POST -ContentType 'application/json' -Body '{ "document_id": 1 }'
+```
 
 **Check Metrics**
 ```powershell
 Invoke-RestMethod -Uri 'http://127.0.0.1:8000/metrics' -Method GET
+```
 
 ## 🔍 Features Implemented
 
