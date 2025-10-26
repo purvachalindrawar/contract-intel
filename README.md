@@ -26,6 +26,8 @@ and containerized using **Docker** and **docker-compose** for easy deployment.
 ```bash
 git clone https://github.com/[your_repo_link_here].git
 cd contract-intel
+```
+
 
 ### (Option A) Local Virtual Environment
 ```bash
