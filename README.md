@@ -24,7 +24,7 @@ and containerized using **Docker** and **docker-compose** for easy deployment.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/[your_repo_link_here].git
+git clone https://github.com/purvachalindrawar/contract-intel.git
 cd contract-intel
 ```
 
