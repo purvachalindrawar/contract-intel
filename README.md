@@ -69,7 +69,7 @@ Invoke-RestMethod -Uri 'http://127.0.0.1:8000/healthz' -Method GET
 
 **Upload a PDF**
 ```powershell
-curl.exe -X POST "http://127.0.0.1:8000/ingest" -F "files=@sample.pdf"
+curl.exe -X POST "http://127.0.0.1:8000/ingest" -F "files="
 ```
 
 **Extract Structured Data**
@@ -145,6 +145,14 @@ Below is a complete list of all major features and components implemented in thi
 - Mock LLM implementation ensures **no API keys** or **external dependencies** are required for demo execution.
 
 ---
+
+## 📚 Sample Documents Used
+
+This project uses publicly available sample contracts for testing and demonstration:
+
+1. Shopify Terms of Service — https://www.shopify.com/legal/terms  
+2. Google Privacy Policy — https://policies.google.com/privacy  
+3. MIT License — https://opensource.org/licenses/MIT
 
 ✅ **All features listed in the Senior Backend Engineer assignment document are implemented and verified.**  
 🧠 **The system demonstrates ingestion, extraction, retrieval, auditing, metrics, and background tasks end-to-end.**
