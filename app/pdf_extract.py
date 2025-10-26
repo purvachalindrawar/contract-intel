@@ -1,4 +1,3 @@
-# app/pdf_extract.py
 import fitz  # PyMuPDF
 from typing import List, Dict
 

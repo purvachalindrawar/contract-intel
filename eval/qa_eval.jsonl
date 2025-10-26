@@ -1,0 +1,5 @@
+{"question":"What is the effective date of the contract?","answer":"(expected) See extraction for 'effective_date' field"}
+{"question":"Does the contract auto-renew?","answer":"(expected) yes/no based on auto_renewal field"}
+{"question":"What is the governing law?","answer":"(expected) state or country from governing_law"}
+{"question":"What is the termination notice period?","answer":"(expected) see termination snippet"}
+{"question":"Who are the signatories?","answer":"(expected) list of signatories or signature block"}
